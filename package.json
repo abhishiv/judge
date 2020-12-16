@@ -1,0 +1,41 @@
+{
+  "name": "@gratico/judge",
+  "version": "0.1.3",
+  "author": "Abhishiv Saxena<abhishiv@gmail.com>",
+  "description": "Pluggable test runner for browser/node",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gratico-engineering"
+  ],
+  "url": "https://www.grati.co/@gratico/judge",
+  "accessConfig": {
+    "public": true
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/abhishiv/judge.git"
+  },
+  "module": "./dist/esm/index.mjs",
+  "main": "./dist/cjs/index.js",
+  "scripts": {
+    "test": "make test",
+    "build": "make build"
+  },
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@gratico/docs-site": "^0.1.2",
+    "@types/jest": "^26.0.0",
+    "@types/shortid": "0.0.29",
+    "docco-next": "^0.9.3",
+    "jest": "^26.0.1",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.1.2"
+  }
+}
