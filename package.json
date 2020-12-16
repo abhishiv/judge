@@ -1,6 +1,6 @@
 {
   "name": "@gratico/judge",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Abhishiv Saxena<abhishiv@gmail.com>",
   "description": "Pluggable test runner for browser/node",
   "license": "UNLICENSED",
